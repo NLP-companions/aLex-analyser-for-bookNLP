@@ -32,12 +32,12 @@ In a terminal:
 python3 -m venv alex-env
 source alex-env/bin/activate        # on Windows: alex-env\Scripts\activate
 python -m pip install --upgrade pip
-pip install git+https://github.com/sapphophonic/alex-booknlp-analyser.git
+pip install git+https://github.com/NLP-companions/aLex-analyser-for-bookNLP.git
 ```
 
 That creates a separate Python environment so aLex doesn't disturb anything else, brings its installer (pip) up to date, and installs aLex and what it needs (FastAPI, uvicorn, networkx, vaderSentiment, scikit-learn). To update later, run the `pip install` line again with `--upgrade`.
 
-For the sound and rhythm figures (stress, cadences, alliteration and the like), also install the optional pronunciation dictionary: `pip install "alex-booknlp-analyser[sound] @ git+https://github.com/sapphophonic/alex-booknlp-analyser.git"`, or `pip install cmudict` into the same environment. It is optional because the `cmudict` package is under the GPL-3.0 licence (the dictionary data itself is BSD); everything else works without it.
+For the sound and rhythm figures (stress, cadences, alliteration and the like), also install the optional pronunciation dictionary: `pip install "alex-booknlp-analyser[sound] @ git+https://github.com/NLP-companions/aLex-analyser-for-bookNLP.git"`, or `pip install cmudict` into the same environment. It is optional because the `cmudict` package is under the GPL-3.0 licence (the dictionary data itself is BSD); everything else works without it.
 
 Prefer to work from a copy of the code? Clone the repository and run `pip install .` inside it (or `pip install -e .` if you want to change the code).
 

@@ -1,0 +1,192 @@
+id	name	type	pronouns	mentions	quotes	not_a_character	collection_id	collection_name
+30	Holmes	PER	he/him/his	492	144			
+33	Watson	PER	he/him/his	227	57			
+31	Irene Adler	PER	she/her	192	4			
+194	King of Bohemia	PER	he/him/his	184	62			
+43	Godfrey Norton	PER	he/him/his	54	2			
+521	Watson and Holmes	PER		49	0			
+20	Briony Lodge	FAC		15	0			
+399	the house	FAC		14	0			
+108	the street	FAC		9	0			
+198	an elderly woman	PER	she/her	9	3			
+390	Adler and Norton	PER	they/them/their	9	0			
+10	Bohemia	GPE		8	0			
+72	the room	FAC		8	0			
+1	Baker Street	FAC		7	0			
+41	Clotilde Lothman von Saxe - Meningen	PER	she/her	6	0			
+63	our lodgings in Baker Street	FAC		6	0			
+358	The Church of St. Monica	FAC		6	0			
+34	Mary Jane	PER		5	0			
+45	John	PER	he/him/his	5	0			
+371	The driver	PER		5	0			
+435	everyone in the street	PER	they/them/their	5	0			
+156	two guardsmen	PER	they/them/their	4	0			
+428	a gang	PER		4	0			
+512	a woman	PER	she/her	4	0			
+5	London	GPE		3	0			
+6	Europe	GPE		3	0			
+9	Egria	GPE		3	0			
+21	Serpentine Avenue	FAC		3	0			
+158	a number of better - dressed people , who had watched the scuffle without taking part in it	PER		3	2			
+232	home	FAC		3	0			
+239	the hall	FAC		3	0			
+336	they	PER	they/them/their	3	0			
+347	the Temple	FAC		3	0			
+356	the sitting - room	FAC		3	0			
+357	the cab	VEH		3	0			
+389	the clergyman	PER	he/him/his	3	0			
+485	her carriage	VEH		3	0			
+507	Women	PER	they/them/their	3	0			
+12	England	GPE		2	0			
+15	Warsaw	GPE		2	0			
+119	The landlady	PER		2	0			
+132	a small street in a quiet neighbourhood	FAC		2	0			
+135	scissors - grinder	PER		2	0			
+138	several well - dressed young men who were lounging up and down with cigars in their mouths	PER	they/them/their	2	0			
+148	the loungers	PER		2	0			
+152	a little knot of flushed and struggling men , who struck savagely at each other with their fists and sticks	PER		2	0			
+153	each other	PER	they/them/their	2	0			
+175	the whole crowd of spectators	PER	they/them/their	2	0			
+220	Holmes, Watson, the King of Bohemia	PER		2	0			
+247	the maker	PER	he/him/his	2	0			
+271	the great House of Ormstein	PER		2	0			
+278	an agent	PER	he/him/his	2	0			
+289	The King of Bohemia and Team	PER		2	0			
+294	burglars in my pay	PER		2	0			
+299	her family	PER		2	0			
+315	horsey men	PER	they/them/their	2	0			
+324	the ostlers	PER	they/them/their	2	0			
+329	Serpentine - mews	FAC		2	0			
+334	a cabman	PER		2	0			
+352	the cabman	PER		2	0			
+353	the maid who opened the door with the air of a man who was thoroughly at home	PER	she/her	2	0			
+361	Norton and the cabman	PER	they/them/their	2	0		k0c438607	Norton and the cabman
+367	a cab	VEH		2	0			
+383	Adler, Norten, and the clergyman	PER		2	0		k2e63e623	Adler, Norten, and the clergyman
+392	a witness of some sort	PER		2	0			
+443	A married woman	PER	she/her	2	0			
+445	an unmarried one	PER	she/her	2	0			
+453	the coachman	PER	he/him/his	2	0			
+461	the royal brougham	VEH		2	0			
+2	Trincomalee	GPE		1	0			
+3	Holland	GPE		1	0			
+7	Eglow	GPE		1	0			
+8	Eglonitz	GPE		1	0			
+11	Carlsbad	GPE		1	0			
+13	Ormstein	GPE		1	0			
+14	Prague	GPE		1	0			
+16	New Jersey	GPE		1	0			
+17	La Scala	FAC		1	0			
+18	Scandinavia	GPE		1	0			
+19	the Langham	FAC		1	0			
+22	St. John 's Wood	FAC		1	0			
+24	Regent Street	FAC		1	0			
+26	the Edgeware Road	FAC		1	0			
+27	the Arnsworth Castle	FAC		1	0			
+28	Charing Cross	FAC		1	0			
+29	the Continent	LOC		1	0			
+32	Odessa	GPE		1	0			
+35	Wallenstein	LOC		1	0		k62f5093c	Wallenstein
+44	Gross & Hankey	FAC		1	0			
+46	God	PER		1	0		k17993121	God
+47	Mrs. Turner	PER		1	0		k64e9cb13	Mrs. Turner
+53	the world	LOC		1	0			
+54	a lover	PER		1	0			
+55	the observer	PER		1	0			
+56	men	PER		1	0			
+62	his own establishment	FAC		1	0			
+64	the official police	PER		1	0			
+65	the Atkinson brothers at Trincomalee	PER		1	0			
+66	the reigning family of Holland	PER		1	0			
+67	the readers of the daily press	PER		1	0			
+69	a patient	PER		1	0			
+73	their	PER		1	0			
+78	the curb	FAC		1	0			
+79	the passage	FAC		1	0			
+83	the other of us	PER		1	0			
+100	a person on which he could not at once furnish information	PER		1	0			
+102	a Hebrew rabbi	PER		1	0			
+103	a staff - commander	PER		1	0			
+116	the bedroom	FAC		1	0			
+122	his bedroom	FAC		1	0			
+124	The stage	FAC		1	0			
+131	the locality	FAC		1	0			
+133	a quiet neighbourhood	FAC		1	0			
+134	a group of shabbily dressed men smoking and laughing in a corner	PER		1	0			
+137	a nurse - girl	PER		1	0			
+142	a carriage	VEH		1	0			
+143	the avenue	FAC		1	0			
+144	one of the loafing men at the corner	PER		1	0			
+145	the loafing men at the corner	PER		1	0			
+146	another loafer , who had rushed up with the same intention	PER		1	0			
+149	the scissors - grinder , who was equally hot upon the other side	PER		1	0			
+164	another	PER		1	2			
+167	the principal room	FAC		1	0			
+173	A maid	PER		1	0			
+176	well dressed and ill -- gentlemen	PER		1	0			
+177	ostlers	PER		1	0			
+178	servant - maids	PER		1	0			
+180	rushing figures	PER		1	0			
+181	the shouting crowd	PER		1	1			
+182	the corner of the street	FAC		1	0			
+186	the quiet streets which lead towards the Edgeware Road	FAC		1	0			
+190	several people on the pavement	PER		1	0			
+191	the pavement	FAC		1	0			
+193	the dimly lit street	FAC		1	0			
+202	the drawing - room	FAC		1	0			
+212	stairs	FAC		1	0			
+224	my company	FAC		1	0			
+234	my wife	PER	she/her	1	0			
+240	this room	FAC		1	0			
+242	the royal houses of Europe	PER		1	0			
+249	our Continental Gazetteer	FAC		1	0			
+252	glass - factories and paper - mills	FAC		1	0			
+256	A Frenchman or Russian	PER		1	0			
+270	the reigning families of Europe	PER		1	0			
+281	Contralto	FAC		1	0			
+288	the letters	PER		1	0		k510cd078	the letters
+297	the King of Scandinavia	PER		1	0			
+301	women	PER		1	0			
+302	men	PER		1	0			
+304	another woman	PER		1	0			
+307	one of the provinces of my kingdom	LOC		1	0			
+308	the provinces of my kingdom	LOC		1	0			
+317	the road	FAC		1	0			
+318	Large sitting - room on the right side , well furnished , with long windows almost to the floor	FAC		1	0			
+319	a child	PER		1	0			
+320	the coach - house	FAC		1	0			
+322	a lane which runs down by one wall of the garden	FAC		1	0			
+323	the garden	FAC		1	0			
+325	half a dozen other people in the neighbourhood in whom I was not in the least interested , but whose biographies I was compelled to listen to	PER		1	0			
+326	the men	PER		1	0			
+328	this planet	LOC		1	0			
+333	the Inner Temple	FAC		1	0			
+346	the gentleman 's chambers in the Temple	FAC		1	0			
+348	a hansom cab	VEH		1	0			
+359	the Edgeware Road	FAC		1	0			
+362	the lane	FAC		1	0			
+373	Holmes and the cabbie	PER		1	0		k66771f3b	Holmes and the cabbie
+375	their	PER		1	0			
+378	not a soul there	PER		1	0			
+382	a church	FAC		1	0			
+394	the streets	FAC		1	0			
+400	the park	FAC		1	0			
+406	an ordinary plumber	PER		1	0			
+407	people	PER		1	0			
+413	a woman	PER		1	0			
+418	anyone else	PER		1	0			
+419	a business man	PER		1	0			
+424	hospital	FAC		1	0			
+437	an accomplice	PER		1	0			
+438	her sitting - room	FAC		1	0			
+439	the very room which I suspected	FAC		1	0			
+440	her bedroom	FAC		1	0			
+444	her baby	PER		1	0			
+450	it	FAC		1	0			
+468	my own station	FAC		1	0			
+472	the 5.15 train	VEH		1	0			
+488	men	PER		1	0			
+506	an agent	PER		1	0			
+508	women	PER		1	0			
+511	a woman	PER		1	2			
+523	The King of Bohemia and Irne Adler	PER		1	0			

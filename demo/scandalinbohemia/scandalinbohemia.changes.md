@@ -1,0 +1,393 @@
+# Changes to scandalinbohemia
+
+Rebuilt scandalinbohemia.book and scandalinbohemia.book.html with the installed BookNLP 1.0.8. Entity types included in .book: PER (BookNLP’s default).
+
+Exported 2026-10-27 00:44 from the BookNLP editor, oldest first.
+
+- 2026-10-25 22:03  Narrator rule: moved 117 first-person pronouns outside quotes to the narrator
+- 2026-10-25 22:03  Merged “Doctor” (#36) into “Watson” (#33)
+- 2026-10-25 22:04  Merged “the well - known adventuress” (#279) into “Irene Adler” (#31)
+- 2026-10-25 22:04  Merged “Esq” (#474) into “Holmes” (#30)
+- 2026-10-25 22:04  Merged “the coachman” (#519) into “John” (#45)
+- 2026-10-25 22:04  Merged “spinster” (#385) into “Irene Adler” (#31)
+- 2026-10-25 22:04  Merged “bachelor” (#386) into “Godfrey Norton” (#43)
+- 2026-10-25 22:04  Merged “not far from Carlsbad” (#251) into “Bohemia” (#10)
+- 2026-10-25 22:04  Merged “second daughter of the King of Scandinavia” (#296) into “Clotilde Lothman von Saxe - Meningen” (#41)
+- 2026-10-25 22:04  Merged “a Bohemian nobleman” (#263) into “the Count Von Kramm” (#37)
+- 2026-10-25 22:06  Merged “an English lawyer named Norton” (#462) into “Godfrey Norton” (#43)
+- 2026-10-25 22:07  Deleted entity “the deep - sea fishes”
+- 2026-10-25 22:08  Merged “a German - speaking country” (#250) into “Egria” (#9)
+- 2026-10-25 22:08  Merged “the kingdom of Bohemia” (#226) into “Bohemia” (#10)
+- 2026-10-25 22:10  Merged “my boy” (#0) into “Watson” (#33)
+- 2026-10-25 22:10  Merged “she” (#410) into “Irene Adler” (#31)
+- 2026-10-25 22:10  Merged “you” (#260) into “Watson” (#33)
+- 2026-10-25 22:12  Merged 14 groups (“the King” (#505), “the King” (#501), “The King” (#502), “your Majesty” (#499), …) into “the King of Bohemia” (#194)
+- 2026-10-25 22:12  Set mention type PROP on 1 mention
+- 2026-10-25 22:12  Group “your Majesty” (#194): renamed to “King of Bohemia”
+- 2026-10-25 22:13  Merged “his gigantic client” (#93) into “King of Bohemia” (#194)
+- 2026-10-25 22:14  Merged “Irene Norton” (#49) into “Irene Adler” (#31)
+- 2026-10-25 22:14  Set mention type NOM on 1 mention
+- 2026-10-25 22:14  Merged “Grand Duke of Cassel - Felstein” (#39) into “King of Bohemia” (#194)
+- 2026-10-25 22:15  Merged “Wilhelm Gottsreich Sigismond von Ormstein” (#38) into “King of Bohemia” (#194)
+- 2026-10-25 22:15  Set mention type NOM on 1 mention
+- 2026-10-25 22:15  Set mention type NOM on 1 mention
+- 2026-10-25 22:16  Moved 2 mentions to “Holmes”
+- 2026-10-25 22:16  Entity “you”: group King of Bohemia → Holmes
+- 2026-10-25 22:17  Entity “her”: group her → Irene Adler
+- 2026-10-25 22:17  Entity “Contralto -- hum”: now tokens 3416–3417 “Contralto --”
+- 2026-10-25 22:17  Entity “Contralto --”: now tokens 3416–3416 “Contralto”
+- 2026-10-25 22:17  Entity “Contralto”: cat PER → FAC
+- 2026-10-25 22:17  Entity “Prima donna Imperial Opera of”: now tokens 3425–3430 “Prima donna Imperial Opera of Warsaw”
+- 2026-10-25 22:17  Entity “Prima donna Imperial Opera of Warsaw”: group Prima donna Imperial Opera of Warsaw → Irene Adler
+- 2026-10-25 22:18  Entity “Your”: group Hum → King of Bohemia
+- 2026-10-25 22:19  Deleted entity “your”
+- 2026-10-25 22:19  Entity “Our visitor”: group Our visitor → King of Bohemia
+- 2026-10-25 22:19  Entity “the languid , lounging figure of the ma…”: group the languid , lounging figure of the man who had been no doubt depicted to him as the most incisive reasoner and most energetic agent in Europe → Holmes
+- 2026-10-25 22:19  Entity “the man who had been no doubt depicted…”: group the man who had been no doubt depicted to him as the most incisive reasoner and most energetic agent in Europe → Holmes
+- 2026-10-25 22:20  Entity “the most incisive reasoner”: group the most incisive reasoner → Holmes
+- 2026-10-25 22:20  Entity “him”: group him → King of Bohemia
+- 2026-10-25 22:20  Group “we” (#521): renamed to “Watson and Holmes”
+- 2026-10-25 22:21  Merged “this young person” (#285) into “Irene Adler” (#31)
+- 2026-10-25 22:21  Merged “A man” (#80) into “King of Bohemia” (#194)
+- 2026-10-25 22:21  Merged “the poor gentleman” (#423) into “Watson” (#33)
+- 2026-10-25 22:22  Merged “Hum” (#40) into “King of Bohemia” (#194)
+- 2026-10-25 22:22  Deleted entity “Hum”
+- 2026-10-25 22:22  Merged “our strange visitor” (#87) into “King of Bohemia” (#194)
+- 2026-10-25 22:23  Merged “the lady” (#150) into “Irene Adler” (#31)
+- 2026-10-25 22:23  Merged “the lady” (#516) into “Irene Adler” (#31)
+- 2026-10-25 22:23  Merged “the German who is so uncourteous to his verbs” (#257) into “King of Bohemia” (#194)
+- 2026-10-25 22:24  Merged “the lady” (#515) into “Irene Adler” (#31)
+- 2026-10-25 22:24  Merged “she” (#434) into “Irene Adler” (#31)
+- 2026-10-25 22:24  Merged “The Count” (#85) into “the Count Von Kramm” (#37)
+- 2026-10-25 22:25  Merged “his” (#121) into “Holmes” (#30)
+- 2026-10-25 22:26  Merged “my dear sir” (#484) into “Holmes” (#30)
+- 2026-10-25 22:27  Merged “Pshaw” (#48) into “Watson” (#33)
+- 2026-10-25 22:28  Deleted entity “Pshaw”
+- 2026-10-25 22:28  Merged “our client” (#411) into “King of Bohemia” (#194)
+- 2026-10-25 22:29  Entity “a fine actor”: group a fine actor → Holmes
+- 2026-10-25 22:29  Entity “an acute reasoner”: group an acute reasoner → Holmes
+- 2026-10-25 22:29  Entity “a specialist in crime”: group a specialist in crime → Holmes
+- 2026-10-25 22:29  Entity “an amiable and simple - minded Nonconfo…”: now tokens 6979–6987 “of an amiable and simple - minded Nonco…”
+- 2026-10-25 22:29  Entity “of an amiable and simple - minded Nonco…”: now tokens 6978–6987 “character of an amiable and simple - mi…”
+- 2026-10-25 22:29  Entity “character of an amiable and simple - mi…”: now tokens 6977–6987 “the character of an amiable and simple…”
+- 2026-10-25 22:29  Entity “the character of an amiable and simple…”: now tokens 6976–6987 “in the character of an amiable and simp…”
+- 2026-10-25 22:30  Entity “in the character of an amiable and simp…”: group in the character of an amiable and simple - minded Nonconformist clergyman → Holmes
+- 2026-10-25 22:30  Entity “its occupant”: group its occupant → Irene Adler
+- 2026-10-25 22:30  1 quote now spoken by Watson
+- 2026-10-25 22:31  Entity “the injured man”: group the injured man → Watson
+- 2026-10-25 22:31  Entity “a brave fellow”: group a brave fellow → Watson
+- 2026-10-25 22:32  Moved 2 mentions to “a gang”
+- 2026-10-25 22:32  Entity “a rough one”: group a rough one → a gang
+- 2026-10-25 22:32  1 quote now spoken by Irene Adler
+- 2026-10-25 22:33  Entity “marm”: group marm → Irene Adler
+- 2026-10-25 22:33  1 quote now spoken by several voices
+- 2026-10-25 22:33  Entity “we”: group Watson and Holmes → several voices
+- 2026-10-25 22:34  Entity “him”: group Watson → Holmes
+- 2026-10-25 22:34  Moved 11 mentions to “Holmes”
+- 2026-10-25 22:35  Entity “the injured man”: group Watson → Holmes
+- 2026-10-25 22:36  Merged “several voices” (#163) into “a number of better - dressed people , who had watched the scuffle without taking part in it” (#158)
+- 2026-10-25 22:36  Entity “him”: group Watson → Holmes
+- 2026-10-25 22:36  Entity “he”: group he → Holmes
+- 2026-10-25 22:36  Entity “the injured man”: group the injured man → Holmes
+- 2026-10-25 22:36  Merged “her” (#168) into “Irene Adler” (#31)
+- 2026-10-25 22:37  Entity “another”: group another → King of Bohemia
+- 2026-10-25 22:37  1 quote now spoken by Watson
+- 2026-10-25 22:38  1 quote now spoken by the shouting crowd
+- 2026-10-25 22:38  Merged “you” (#262) into “Holmes” (#30)
+- 2026-10-25 22:40  Moved 8 mentions to “Irene Adler”
+- 2026-10-25 22:40  Moved 2 mentions to “Watson”
+- 2026-10-25 22:40  Entity “his Majesty”: group his Majesty → King of Bohemia
+- 2026-10-25 22:41  1 quote now spoken by Irene Adler
+- 2026-10-25 22:41  Entity “someone passing”: group someone passing → Irene Adler
+- 2026-10-25 22:41  1 quote now spoken by King of Bohemia
+- 2026-10-25 22:41  Entity “he”: group Holmes → King of Bohemia
+- 2026-10-25 22:42  1 quote now spoken by Holmes
+- 2026-10-25 22:42  1 quote now spoken by King of Bohemia
+- 2026-10-25 22:42  1 quote now spoken by Holmes
+- 2026-10-25 22:42  1 quote now spoken by King of Bohemia
+- 2026-10-25 22:42  1 quote now spoken by King of Bohemia
+- 2026-10-25 22:42  Entity “my brougham”: cat PER → VEH
+- 2026-10-25 22:43  Moved 2 mentions to “Godfrey Norton”
+- 2026-10-25 22:43  Entity “My mistress”: group My mistress → Irene Adler
+- 2026-10-25 22:43  Moved 2 mentions to “Irene Adler”
+- 2026-10-25 22:44  1 quote now spoken by King of Bohemia
+- 2026-10-25 22:44  Entity “the King”: group Holmes → King of Bohemia
+- 2026-10-25 22:44  Entity “the servant”: group the servant → an elderly woman
+- 2026-10-25 22:44  Entity “the King”: group Holmes → King of Bohemia
+- 2026-10-25 22:44  Moved 3 mentions to “Irene Adler”
+- 2026-10-25 22:45  Entity “me”: group Watson → Irene Adler
+- 2026-10-25 22:45  Moved 8 mentions to “Irene Adler”
+- 2026-10-25 22:45  Quote “" My dear Mr. Sherlock Holmes : "”: now tokens 9798–9806 “" My dear Mr. Sherlock Holmes : " You”
+- 2026-10-25 22:45  Quote “" My dear Mr. Sherlock Holmes : " You”: now tokens 9798–9807 “" My dear Mr. Sherlock Holmes : " You r…”
+- 2026-10-25 22:45  Quote “" My dear Mr. Sherlock Holmes : " You r…”: now tokens 9799–9807 “My dear Mr. Sherlock Holmes : " You rea…”
+- 2026-10-25 22:45  Quote “My dear Mr. Sherlock Holmes : " You rea…”: now tokens 9800–9807 “dear Mr. Sherlock Holmes : " You really”
+- 2026-10-25 22:45  Quote “dear Mr. Sherlock Holmes : " You really”: now tokens 9800–9808 “dear Mr. Sherlock Holmes : " You really…”
+- 2026-10-25 22:45  Quote “dear Mr. Sherlock Holmes : " You really…”: now tokens 9800–9809 “dear Mr. Sherlock Holmes : " You really…”
+- 2026-10-25 22:45  Quote “dear Mr. Sherlock Holmes : " You really…”: now tokens 9801–9809 “Mr. Sherlock Holmes : " You really did…”
+- 2026-10-25 22:45  Quote “Mr. Sherlock Holmes : " You really did…”: now tokens 9801–9810 “Mr. Sherlock Holmes : " You really did…”
+- 2026-10-25 22:45  Quote “Mr. Sherlock Holmes : " You really did…”: now tokens 9800–9810 “dear Mr. Sherlock Holmes : " You really…”
+- 2026-10-25 22:45  Quote “dear Mr. Sherlock Holmes : " You really…”: now tokens 9799–9810 “My dear Mr. Sherlock Holmes : " You rea…”
+- 2026-10-25 22:45  Quote “My dear Mr. Sherlock Holmes : " You rea…”: now tokens 9799–9811 “My dear Mr. Sherlock Holmes : " You rea…”
+- 2026-10-25 22:46  Quote “My dear Mr. Sherlock Holmes : " You rea…”: now tokens 9799–9812 “My dear Mr. Sherlock Holmes : " You rea…”
+- 2026-10-25 22:46  Quote “My dear Mr. Sherlock Holmes : " You rea…”: now tokens 9799–9813 “My dear Mr. Sherlock Holmes : " You rea…”
+- 2026-10-25 22:46  Quote “My dear Mr. Sherlock Holmes : " You rea…”: now tokens 9799–9814 “My dear Mr. Sherlock Holmes : " You rea…”
+- 2026-10-25 22:46  Quote “My dear Mr. Sherlock Holmes : " You rea…”: now tokens 9799–9815 “My dear Mr. Sherlock Holmes : " You rea…”
+- 2026-10-25 22:46  Quote “My dear Mr. Sherlock Holmes : " You rea…”: now tokens 9799–9816 “My dear Mr. Sherlock Holmes : " You rea…”
+- 2026-10-25 22:46  Quote “My dear Mr. Sherlock Holmes : " You rea…”: now tokens 9799–9817 “My dear Mr. Sherlock Holmes : " You rea…”
+- 2026-10-25 22:46  Deleted quote “My dear Mr. Sherlock Holmes : " You rea…”
+- 2026-10-25 22:47  Deleted quote “" Well , I followed you to your door ,…”
+- 2026-10-25 22:47  Deleted quote “" Very truly yours , "”
+- 2026-10-25 22:48  Deleted quote “"”
+- 2026-10-25 22:49  Added quote “" My dear Mr. Sherlock Holmes : " You r…” spoken by Irene Adler
+- 2026-10-25 22:49  Quote rule: moved 21 first-person pronouns to their quotes’ speakers
+- 2026-10-25 22:49  Entity “so formidable an antagonist”: group so formidable an antagonist → Holmes
+- 2026-10-25 22:49  Moved 2 mentions to “King of Bohemia”
+- 2026-10-25 22:50  Entity “a better man”: group a better man → Godfrey Norton
+- 2026-10-25 22:50  Entity “We”: group Watson and Holmes → new group #522
+- 2026-10-25 22:50  Group “We” (#522): renamed to “Irene Adler and Godfrey Norton”
+- 2026-10-25 22:50  Moved 5 mentions to “King of Bohemia”
+- 2026-10-25 22:51  Moved 7 mentions to “Irene Adler”
+- 2026-10-25 22:51  Entity “the King of Bohemia”: group Holmes → King of Bohemia
+- 2026-10-25 22:51  Entity “I”: group Holmes → King of Bohemia
+- 2026-10-25 22:51  Entity “an admirable queen”: group an admirable queen → Irene Adler
+- 2026-10-25 22:51  Entity “my”: group Holmes → Irene Adler
+- 2026-10-25 22:51  Entity “your”: group Holmes → King of Bohemia
+- 2026-10-25 22:52  Entity “your”: group Holmes → King of Bohemia
+- 2026-10-25 22:52  1 quote now spoken by King of Bohemia
+- 2026-10-25 22:52  Entity “the King”: group Holmes → King of Bohemia
+- 2026-10-25 22:52  Entity “I”: group Holmes → King of Bohemia
+- 2026-10-25 22:52  Moved 3 mentions to “King of Bohemia”
+- 2026-10-25 22:53  Entity “his”: group King of Bohemia → Holmes
+- 2026-10-25 22:53  Entity “his chambers”: group his chambers → Baker Street
+- 2026-10-25 22:53  Entity “a woman”: group a woman → Irene Adler
+- 2026-10-25 22:54  Entity “the woman”: group the woman → Irene Adler
+- 2026-10-25 22:54  Merged “she” (#50) into “Irene Adler” (#31)
+- 2026-10-25 22:54  Entity “the most perfect reasoning and observin…”: group the most perfect reasoning and observing machine that → Holmes
+- 2026-10-25 22:55  Entity “the trained reasoner”: group the trained reasoner → Holmes
+- 2026-10-25 22:55  Entity “that woman”: group that woman → Irene Adler
+- 2026-10-25 22:55  Entity “one woman”: group one woman → Irene Adler
+- 2026-10-25 22:55  Merged “the man who first finds himself master of his own establishment” (#61) into “Watson” (#33)
+- 2026-10-25 22:56  Entity “Odessa”: cat PER → GPE
+- 2026-10-25 22:56  Entity “my former friend”: now tokens 476–479 “my former friend and”
+- 2026-10-25 22:56  Entity “my former friend and”: now tokens 476–480 “my former friend and companion”
+- 2026-10-25 22:56  Entity “my former friend and companion”: group my former friend and companion → Holmes
+- 2026-10-25 22:57  Entity “His rooms”: group His rooms → our lodgings in Baker Street
+- 2026-10-25 22:57  Entity “the chamber which had formerly been in…”: group the chamber which had formerly been in part my own → our lodgings in Baker Street
+- 2026-10-25 22:58  Entity “a most clumsy and careless servant girl”: group a most clumsy and careless servant girl → Mary Jane
+- 2026-10-25 22:58  Entity “she”: group she → Mary Jane
+- 2026-10-25 22:58  Moved 3 mentions to “Holmes”
+- 2026-10-25 22:58  Entity “you”: group Watson → Holmes
+- 2026-10-25 22:58  Entity “you”: group Watson → home
+- 2026-10-25 22:58  Entity “you”: group home → Holmes
+- 2026-10-25 22:59  Entity “her”: group my wife → Mary Jane
+- 2026-10-25 22:59  Entity “my rooms”: group my rooms → our lodgings in Baker Street
+- 2026-10-25 22:59  Moved 6 mentions to “Watson”
+- 2026-10-25 22:59  Entity “an active member of the medical profess…”: group an active member of the medical profession → Watson
+- 2026-10-25 23:00  Merged “the Count Von Kramm” (#37) into “King of Bohemia” (#194)
+- 2026-10-25 23:01  1 quote now spoken by Holmes
+- 2026-10-25 23:01  1 quote now spoken by Holmes
+- 2026-10-25 23:01  1 quote now spoken by Holmes
+- 2026-10-25 23:01  1 quote now spoken by Holmes
+- 2026-10-25 23:01  1 quote now spoken by Holmes
+- 2026-10-25 23:02  1 quote now spoken by Holmes
+- 2026-10-25 23:02  1 quote now spoken by Holmes
+- 2026-10-25 23:02  1 quote now spoken by Holmes
+- 2026-10-25 23:02  Entity “he”: group John → Holmes
+- 2026-10-25 23:03  Quote rule: moved 4 first-person pronouns to their quotes’ speakers
+- 2026-10-25 23:03  1 quote now spoken by Watson
+- 2026-10-25 23:03  1 quote now spoken by Watson
+- 2026-10-25 23:03  Moved 5 mentions to “Watson”
+- 2026-10-25 23:04  Entity “Madame”: group Madame → Irene Adler
+- 2026-10-25 23:04  1 quote now spoken by Watson
+- 2026-10-25 23:04  1 quote now spoken by Watson
+- 2026-10-25 23:04  1 quote now spoken by Watson
+- 2026-10-25 23:04  2 quotes now spoken by Watson
+- 2026-10-25 23:04  1 quote now spoken by Watson
+- 2026-10-25 23:04  1 quote now spoken by Watson
+- 2026-10-26 23:17  1 quote now spoken by King of Bohemia
+- 2026-10-26 23:17  1 quote now spoken by King of Bohemia
+- 2026-10-26 23:18  1 quote now spoken by King of Bohemia
+- 2026-10-26 23:18  1 quote now spoken by King of Bohemia
+- 2026-10-26 23:19  1 quote now spoken by King of Bohemia
+- 2026-10-26 23:19  1 quote now spoken by Watson
+- 2026-10-26 23:24  1 quote now spoken by King of Bohemia
+- 2026-10-26 23:24  1 quote now spoken by King of Bohemia
+- 2026-10-26 23:25  1 quote now spoken by Godfrey Norton
+- 2026-10-26 23:25  1 quote now spoken by Holmes
+- 2026-10-26 23:25  1 quote now spoken by Godfrey Norton
+- 2026-10-26 23:26  1 quote now spoken by Watson
+- 2026-10-26 23:27  1 quote now spoken by King of Bohemia
+- 2026-10-26 23:29  Entity “a lawyer”: group a lawyer → Godfrey Norton
+- 2026-10-26 23:29  Moved 1 mention to “Irene Adler”
+- 2026-10-26 23:31  Entity “Irene Adler”: now tokens 223–225 “late Irene Adler”
+- 2026-10-26 23:31  Entity “late Irene Adler”: now tokens 222–225 “the late Irene Adler”
+- 2026-10-26 23:33  Deleted entity “Scarlet”
+- 2026-10-26 23:34  Deleted entity “the Study in Scarlet”
+- 2026-10-26 23:35  Merged “the London slavey” (#235) into “Mary Jane” (#34)
+- 2026-10-26 23:35  Merged “a gentleman who desires to consult you upon a matter of the very deepest moment . Your recent services to one of the royal houses of Europe” (#241) into “King of Bohemia” (#194)
+- 2026-10-26 23:36  Merged “your chamber” (#244) into “our lodgings in Baker Street” (#63)
+- 2026-10-26 23:36  Merged “your visitor” (#245) into “King of Bohemia” (#194)
+- 2026-10-26 23:36  Merged “The man who wrote it” (#246) into “King of Bohemia” (#194)
+- 2026-10-26 23:37  Set type on 1 mention of “Wallenstein”
+- 2026-10-26 23:37  Merged “the man who wrote the note” (#254) into “King of Bohemia” (#194)
+- 2026-10-26 23:37  Merged “this German who writes upon Bohemian paper and prefers wearing a mask to showing his face” (#258) into “King of Bohemia” (#194)
+- 2026-10-26 23:38  Entity “a Hercules”: now tokens 2358–2360 “of a Hercules”
+- 2026-10-26 23:38  Entity “of a Hercules”: now tokens 2357–2360 “limbs of a Hercules”
+- 2026-10-26 23:38  Entity “limbs of a Hercules”: now tokens 2356–2360 “and limbs of a Hercules”
+- 2026-10-26 23:38  Entity “and limbs of a Hercules”: now tokens 2355–2360 “chest and limbs of a Hercules”
+- 2026-10-26 23:38  Entity “chest and limbs of a Hercules”: now tokens 2354–2360 “the chest and limbs of a Hercules”
+- 2026-10-26 23:38  Entity “the chest and limbs of a Hercules”: now tokens 2353–2360 “with the chest and limbs of a Hercules”
+- 2026-10-26 23:38  Entity “with the chest and limbs of a Hercules”: now tokens 2352–2360 “, with the chest and limbs of a Hercules”
+- 2026-10-26 23:38  Entity “, with the chest and limbs of a Hercules”: now tokens 2351–2360 “height , with the chest and limbs of a…”
+- 2026-10-26 23:38  Entity “height , with the chest and limbs of a…”: now tokens 2350–2360 “in height , with the chest and limbs of…”
+- 2026-10-26 23:38  Entity “in height , with the chest and limbs of…”: now tokens 2349–2360 “inches in height , with the chest and l…”
+- 2026-10-26 23:38  Entity “inches in height , with the chest and l…”: now tokens 2348–2360 “six inches in height , with the chest a…”
+- 2026-10-26 23:38  Entity “six inches in height , with the chest a…”: now tokens 2347–2360 “feet six inches in height , with the ch…”
+- 2026-10-26 23:38  Entity “feet six inches in height , with the ch…”: now tokens 2346–2360 “six feet six inches in height , with th…”
+- 2026-10-26 23:38  Entity “six feet six inches in height , with th…”: now tokens 2345–2360 “than six feet six inches in height , wi…”
+- 2026-10-26 23:38  Entity “than six feet six inches in height , wi…”: now tokens 2344–2360 “less than six feet six inches in height…”
+- 2026-10-26 23:38  Entity “less than six feet six inches in height…”: now tokens 2343–2360 “been less than six feet six inches in h…”
+- 2026-10-26 23:38  Entity “been less than six feet six inches in h…”: now tokens 2342–2360 “have been less than six feet six inches…”
+- 2026-10-26 23:38  Entity “have been less than six feet six inches…”: now tokens 2341–2360 “hardly have been less than six feet six…”
+- 2026-10-26 23:38  Entity “hardly have been less than six feet six…”: now tokens 2340–2360 “could hardly have been less than six fe…”
+- 2026-10-26 23:38  Merged “could hardly have been less than six feet six inches in height , with the chest and limbs of a Hercules” (#81) into “King of Bohemia” (#194)
+- 2026-10-26 23:38  Merged “a man of strong character , with a thick , hanging lip , and a long , straight chin suggestive of resolution pushed to the length of obstinacy” (#82) into “King of Bohemia” (#194)
+- 2026-10-26 23:39  Merged “this gentleman” (#264) into “Watson” (#33)
+- 2026-10-26 23:39  Merged “your friend” (#265) into “Watson” (#33)
+- 2026-10-26 23:39  Merged “a man of honour and discretion” (#266) into “Watson” (#33)
+- 2026-10-26 23:39  Merged “his agent” (#269) into “King of Bohemia” (#194)
+- 2026-10-26 23:39  Merged “hereditary kings of Bohemia” (#272) into “the great House of Ormstein” (#271)
+- 2026-10-26 23:40  Deleted entity “my own person”
+- 2026-10-26 23:41  Group “their” (#288): renamed to “the letters”
+- 2026-10-26 23:41  Entity “Crown Prince”: now tokens 3636–3638 “only Crown Prince”
+- 2026-10-26 23:41  Entity “only Crown Prince”: group only Crown Prince → King of Bohemia
+- 2026-10-26 23:41  Entity “Twice burglars”: now tokens 3700–3700 “burglars”
+- 2026-10-26 23:41  Entity “Twice burglars in my pay”: now tokens 3700–3703 “burglars in my pay”
+- 2026-10-26 23:41  Deleted entity “burglars”
+- 2026-10-26 23:42  Merged “them” (#300) into “her family” (#299)
+- 2026-10-26 23:42  Merged “men” (#489) into “the most resolute of men” (#302)
+- 2026-10-26 23:43  Deleted entity “the most resolute of men”
+- 2026-10-26 23:43  Merged “Mademoiselle” (#42) into “Irene Adler” (#31)
+- 2026-10-26 23:44  Merged “the royal brougham” (#107) into “my brougham” (#461)
+- 2026-10-26 23:45  Merged “The landlady” (#109) into “our landlady” (#119)
+- 2026-10-26 23:46  Merged “his client” (#111) into “King of Bohemia” (#194)
+- 2026-10-26 23:46  Merged “a drunken - looking groom , ill - kempt and side - whiskered , with an inflamed face and disreputable clothes” (#113) into “Holmes” (#30)
+- 2026-10-26 23:46  Entity “a groom out of work”: now tokens 4788–4793 “of a groom out of work”
+- 2026-10-26 23:46  Entity “of a groom out of work”: now tokens 4787–4793 “character of a groom out of work”
+- 2026-10-26 23:46  Entity “character of a groom out of work”: now tokens 4786–4793 “the character of a groom out of work”
+- 2026-10-26 23:46  Entity “the character of a groom out of work”: now tokens 4785–4793 “in the character of a groom out of work”
+- 2026-10-26 23:46  Entity “in the character of a groom out of work”: group in the character of a groom out of work → Holmes
+- 2026-10-26 23:47  Entity “the house”: group the house → our lodgings in Baker Street
+- 2026-10-26 23:47  Merged “a bijou villa” (#316) into “Briony Lodge” (#20)
+- 2026-10-26 23:48  Merged “the daintiest thing under a bonnet on this planet” (#327) into “Irene Adler” (#31)
+- 2026-10-26 23:48  Set type on 1 mention of “the Serpentine - mews”
+- 2026-10-26 23:48  Merged “a man” (#493) into “Holmes” (#30)
+- 2026-10-26 23:49  Merged “a Mr. Godfrey Norton , of the Inner Temple” (#332) into “Godfrey Norton” (#43)
+- 2026-10-26 23:49  Merged “a confidant” (#335) into “a cabman” (#334)
+- 2026-10-26 23:49  Merged “Serpentine - mews” (#23) into “the Serpentine - mews” (#329)
+- 2026-10-26 23:49  Merged “she” (#339) into “Irene Adler” (#31)
+- 2026-10-26 23:49  Merged “his client” (#509) into “Irene Adler” (#31)
+- 2026-10-26 23:49  Merged “his friend” (#341) into “Irene Adler” (#31)
+- 2026-10-26 23:50  Merged “his mistress” (#342) into “Irene Adler” (#31)
+- 2026-10-26 23:50  Merged “the former” (#343) into “Irene Adler” (#31)
+- 2026-10-26 23:50  Merged “the latter” (#344) into “Godfrey Norton” (#43)
+- 2026-10-26 23:50  Merged “the gentleman” (#345) into “Godfrey Norton” (#43)
+- 2026-10-26 23:51  Moved 1 mention to “King of Bohemia”
+- 2026-10-26 23:52  Merged “a gentleman” (#491) into “Godfrey Norton” (#43)
+- 2026-10-26 23:53  Entity “the gentleman”: group the gentleman → Godfrey Norton
+- 2026-10-26 23:53  Entity “the lady on the other”: now tokens 6113–6116 “the lady on the”
+- 2026-10-26 23:53  Entity “the lady on the”: now tokens 6113–6115 “the lady on”
+- 2026-10-26 23:53  Entity “the lady on”: now tokens 6113–6114 “the lady”
+- 2026-10-26 23:53  Entity “the lady”: group the lady → Irene Adler
+- 2026-10-26 23:53  Group “their” (#390): renamed to “Adler and Norton”
+- 2026-10-26 23:53  Entity “the bridegroom”: group the bridegroom → Godfrey Norton
+- 2026-10-26 23:54  Moved 5 mentions to “Irene Adler”
+- 2026-10-26 23:54  Moved 3 mentions to “Adler and Norton”
+- 2026-10-26 23:54  Entity “he”: group the clergyman → Godfrey Norton
+- 2026-10-26 23:54  Entity “your man”: group your man → Watson
+- 2026-10-26 23:55  Deleted entity “to - day”
+- 2026-10-26 23:55  Merged “Irene Adler and Godfrey Norton” (#522) into “Adler and Norton” (#390)
+- 2026-10-26 23:56  Merged “My dear” (#490) into “Holmes” (#30)
+- 2026-10-26 23:56  Entity “my husband”: group my husband → Godfrey Norton
+- 2026-10-26 23:56  Merged “one male visitor” (#331) into “Godfrey Norton” (#43)
+- 2026-10-26 23:57  Merged “Your” (#283) into “King of Bohemia” (#194)
+- 2026-10-26 23:57  Merged “your client” (#259) into “King of Bohemia” (#194)
+- 2026-10-26 23:58  Entity “Hankey”: now tokens 5578–5579 “& Hankey”
+- 2026-10-26 23:58  Entity “& Hankey”: now tokens 5577–5579 “Gross & Hankey”
+- 2026-10-26 23:58  Entity “Gross & Hankey”: cat PER → FAC
+- 2026-10-27 00:08  Merged “a remarkably handsome man , dark , aquiline , and moustached” (#350) into “Godfrey Norton” (#43)
+- 2026-10-27 00:08  Merged “the man of whom I had heard” (#351) into “Godfrey Norton” (#43)
+- 2026-10-27 00:08  Deleted entity “Away”
+- 2026-10-27 00:09  Entity “the cabman to wait”: now tokens 5458–5460 “the cabman to”
+- 2026-10-27 00:09  Entity “the cabman to”: now tokens 5458–5459 “the cabman”
+- 2026-10-27 00:09  Entity “you”: group Watson → the cabman
+- 2026-10-27 00:10  Group “they” (#361): renamed to “Norton and the cabman”
+- 2026-10-27 00:10  Merged “It” (#363) into “the cab” (#357)
+- 2026-10-27 00:10  Moved 5 mentions to “Irene Adler”
+- 2026-10-27 00:11  Entity “you”: group John → The driver
+- 2026-10-27 00:11  Moved 3 mentions to “My cabby”
+- 2026-10-27 00:12  Group “us” (#373): renamed to “Holmes and the cabbie”
+- 2026-10-27 00:12  Merged “the others” (#372) into “Adler and Norton” (#390)
+- 2026-10-27 00:12  Entity “the man”: group the man → The driver
+- 2026-10-27 00:12  Entity “the church”: group the church → The Church of St. Monica
+- 2026-10-27 00:13  Merged “The Church of St. Monica” (#25) into “the Church of St. Monica” (#358)
+- 2026-10-27 00:13  Merged “any other idler who has dropped into a church” (#381) into “Holmes” (#30)
+- 2026-10-27 00:14  Merged “a lovely woman” (#365) into “Irene Adler” (#31)
+- 2026-10-27 00:14  Merged “a surpliced clergyman” (#380) into “Adler and Norton” (#390)
+- 2026-10-27 00:15  Group “the three at the altar” (#383): renamed to “Adler, Norten, and the clergyman”
+- 2026-10-27 00:15  Merged “man” (#384) into “Holmes” (#30)
+- 2026-10-27 00:16  Entity “a dear , kind old clergyman”: group a dear , kind old clergyman → Holmes
+- 2026-10-27 00:16  Deleted entity “an actress”
+- 2026-10-27 00:17  Merged “a best man” (#395) into “a witness of some sort” (#392)
+- 2026-10-27 00:18  Set type on 1 mention of “its”
+- 2026-10-27 00:18  Merged “its” (#486) into “her house” (#295)
+- 2026-10-27 00:18  Moved 6 mentions to “her house”
+- 2026-10-27 00:19  Merged “the house” (#295) into “her own house” (#399)
+- 2026-10-27 00:19  Merged “the house” (#110) into “the house” (#399)
+- 2026-10-27 00:20  Merged “her carriage” (#422) into “the landau with their steaming horses” (#485)
+- 2026-10-27 00:21  Set type on 1 mention of “one of the provinces of my kingdom”
+- 2026-10-27 00:21  Set type on 1 mention of “the provinces of my kingdom”
+- 2026-10-27 00:22  Added PER NOM entity “scissors - grinder” in group his
+- 2026-10-27 00:23  Entity “two guardsmen who were flirting with a…”: group two guardsmen who were flirting with a nurse - girl → the guardsmen
+- 2026-10-27 00:23  Merged “the two guardsmen” (#147) into “two guardsmen who were flirting with a nurse - girl” (#156)
+- 2026-10-27 00:23  Group “two guardsmen who were flirting with a nurse - girl” (#156): renamed to “two guardsmen”
+- 2026-10-27 00:23  Entity “her lawyer”: group her lawyer → Godfrey Norton
+- 2026-10-27 00:23  Entity “Her banker”: group Her banker → Godfrey Norton
+- 2026-10-27 00:24  Merged “They” (#421) into “burglars in my pay” (#294)
+- 2026-10-27 00:25  Group “all three” (#220): renamed to “Holmes, Watson, the King of Bohemia”
+- 2026-10-27 00:25  Entity “a slim youth in an ulster who had hurri…”: group a slim youth in an ulster who had hurried by → Irene Adler
+- 2026-10-27 00:25  Entity “We”: group We → Holmes, Watson, the King of Bohemia
+- 2026-10-27 00:25  Entity “a man who is in need of air”: group a man who is in need of air → Holmes
+- 2026-10-27 00:26  Merged “the crowd” (#154) into “a little knot of flushed and struggling men , who struck savagely at each other with their fists and sticks” (#152)
+- 2026-10-27 00:26  Deleted entity “a subject”
+- 2026-10-27 00:27  Moved 2 mentions to “Adler and Norton”
+- 2026-10-27 00:27  Entity “a surpliced clergyman”: group Adler and Norton → the clergyman
+- 2026-10-27 00:27  Entity “They”: group They → Adler, Norten, and the clergyman
+- 2026-10-27 00:28  Entity “You”: group You → Holmes
+- 2026-10-27 00:28  Entity “Your”: group you → King of Bohemia
+- 2026-10-27 00:28  Entity “You”: group you → Holmes
+- 2026-10-27 00:28  Moved 2 mentions to “King of Bohemia”
+- 2026-10-27 00:28  Moved 2 mentions to “Holmes”
+- 2026-10-27 00:29  Entity “you”: group you → Watson
+- 2026-10-27 00:29  Entity “you”: group you → Holmes
+- 2026-10-27 00:29  Entity “you”: group you → Watson
+- 2026-10-27 00:29  Entity “you”: group you → Watson
+- 2026-10-27 00:30  Entity “You”: group You → Holmes
+- 2026-10-27 00:30  Entity “We”: group We → new group #523
+- 2026-10-27 00:30  Group “We” (#523): renamed to “The King of Bohemia and Irne Adler”
+- 2026-10-27 00:31  Group “we” (#289): renamed to “The King of Bohemia and Team”
+- 2026-10-27 00:31  Merged “a queen” (#469) into “Irene Adler” (#31)
+- 2026-10-27 00:32  Merged “his princess” (#412) into “Clotilde Lothman von Saxe - Meningen” (#41)
+- 2026-10-27 00:32  Set type on 1 mention of “Mary Jane”
+- 2026-10-27 00:32  Set type on 1 mention of “Mary Jane”
+- 2026-10-27 00:39  Entity “You”: group Holmes → King of Bohemia
+- 2026-10-27 00:40  Entity “you”: group Holmes → Watson
+- 2026-10-27 00:40  Moved 2 mentions to “Watson”
+- 2026-10-27 00:41  Entity “you”: group Holmes → an elderly woman
+- 2026-10-27 00:41  Entity “she”: group an elderly woman → Irene Adler
+- 2026-10-27 00:42  Entity “You”: group Watson → Holmes
+- 2026-10-27 00:42  Entity “you”: group Watson → Holmes
+- 2026-10-27 00:42  Entity “you”: group Watson → Holmes
+- 2026-10-27 00:42  Entity “you”: group Watson → Holmes
+- 2026-10-27 00:43  Quote “" You are sure that she has not sent it ” now spoken by Holmes
+- 2026-10-27 00:43  Quote “" And why ? "” now spoken by Holmes

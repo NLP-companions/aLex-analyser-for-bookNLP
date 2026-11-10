@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>aLex - a BookNLP analysing tool</title>
+<script>window.WORKSPACE = null; /* the server writes the id of the open workspace here */</script>
+<script>try { var t = JSON.parse(localStorage.getItem("analyser.theme") || '"auto"'); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch (e) {}</script>
+<link rel="stylesheet" href="/static/app.css">
+<link rel="icon" href="data:,">
+</head>
+<body>
+<header class="top">
+  <span class="mark">aLex</span>
+  <nav id="tabs">
+    <!-- the eight areas (areas.js): each link opens the page last used in its area; the pages of an area are tabs in #areaNav -->
+    <div class="seg"><a data-area="books" href="#/books">Library</a></div>
+    <div class="seg">
+    <a data-area="entities" href="#/entities">Entities</a>
+    <a data-area="dialogue" href="#/dialogue/speakers">Dialogue</a>
+    <a data-area="words" href="#/corpus/kwic">Words</a>
+    <a data-area="style" href="#/narrative/style">Style</a>
+    <a data-area="time" href="#/over">Over time</a>
+    <a data-area="stats" href="#/stats">Statistics</a>
+    <a data-area="read" href="#/read">Read</a>
+    </div>
+  </nav>
+  <div class="top-end">
+  <!-- Back (after a drill-down into one book) and the book button: hover says what you are viewing, click opens the book picker (core.js, menu.js) -->
+  <button class="btn" id="viewBack" hidden></button>
+  <!-- the shared focus, when every page follows one (focus.js); × clears it -->
+  <div class="focus-chip" id="focusChip" hidden></div>
+  <div class="menuwrap" id="booksWrap">
+    <button class="btn ico" id="booksBtn" aria-label="Books" aria-haspopup="dialog" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19.5V5a2 2 0 0 1 2-2h13v15H6a2 2 0 0 0-2 2z"/><path d="M4 19.5A2 2 0 0 0 6 21.5h13V18"/></svg></button>
+    <div class="tip" id="viewTip" role="tooltip"></div>
+    <div class="menu books-fly" id="selPop" role="dialog" aria-label="Books to analyse" hidden></div>
+  </div>
+  <!-- help for the page you are on, in the drawer (help.js) -->
+  <button class="btn ico" id="helpBtn" title="Help for this page" aria-label="Help for this page">?</button>
+  <!-- the [...] menu (menu.js): pages and settings; its submenus open to the left -->
+  <div class="menuwrap" id="moreWrap">
+    <button class="btn ico" id="moreBtn" title="Menu" aria-label="Menu" aria-haspopup="menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="12" r="1.3"/><circle cx="12" cy="12" r="1.3"/><circle cx="19" cy="12" r="1.3"/></svg></button>
+    <div class="menu" id="moreMenu" role="menu" hidden>
+      <a class="mi" data-tab="links" role="menuitem" href="#/links">Entity Links</a>
+      <a class="mi" data-tab="narrators" role="menuitem" href="#/narrators">Narrators</a>
+      <div class="sub" id="wsSub">
+        <button class="mi" role="menuitem" aria-haspopup="menu" aria-expanded="false" title="The workspace you are working in: its own books, links and settings">Workspace<span class="mi-val" id="wsVal"></span></button>
+        <div class="menu" id="wsMenu" role="menu" aria-label="Workspace" hidden></div>
+      </div>
+      <div class="sub">
+        <button class="mi" role="menuitem" aria-haspopup="menu" aria-expanded="false">Theme<span class="mi-val" id="themeVal"></span></button>
+        <div class="menu" role="menu" aria-label="Theme" hidden>
+          <button class="mi" role="menuitemradio" data-theme="auto">Auto</button>
+          <button class="mi" role="menuitemradio" data-theme="light">Light</button>
+          <button class="mi" role="menuitemradio" data-theme="dark">Dark</button>
+        </div>
+      </div>
+      <button class="mi" id="pluralItem" role="menuitemcheckbox" aria-checked="false" title="Count what plural groups (“Holmes and Watson”, “they”) say, do and are called for each of their members too: mentions, relations, who they appear with, speech and addressees. Members named inside a plural mention count once. For every page; the same setting is on the Settings page.">Plural groups<span class="mi-val" id="pluralVal"></span></button>
+      <a class="mi" data-tab="settings" role="menuitem" href="#/settings">Settings</a>
+    </div>
+  </div>
+  </div>
+</header>
+<nav id="areaNav" class="subtabs" aria-label="Pages of this area" hidden></nav>
+<main id="main"></main>
+<aside id="drawer" class="drawer" hidden>
+  <div class="drawer-head">
+    <div id="drawerTitle"></div>
+    <button class="icon" id="drawerClose" aria-label="Close">×</button>
+  </div>
+  <div id="drawerBody" class="drawer-body"></div>
+</aside>
+<div id="toast" class="toast" hidden></div>
+<script src="/static/js/core.js"></script>
+<script src="/static/js/focus.js"></script>
+<script src="/static/js/menu.js"></script>
+<script src="/static/js/help.js"></script>
+<script src="/static/js/help-general.js"></script>
+<script src="/static/js/help-entities.js"></script>
+<script src="/static/js/help-entity.js"></script>
+<script src="/static/js/help-dialogue.js"></script>
+<script src="/static/js/help-corpus.js"></script>
+<script src="/static/js/help-narrative.js"></script>
+<script src="/static/js/help-sound.js"></script>
+<script src="/static/js/help-topics.js"></script>
+<script src="/static/js/help-compare.js"></script>
+<script src="/static/js/help-over.js"></script>
+<script src="/static/js/help-described.js"></script>
+<script src="/static/js/help-network.js"></script>
+<script src="/static/js/help-books.js"></script>
+<script src="/static/js/help-read.js"></script>
+<script src="/static/js/help-chapters.js"></script>
+<script src="/static/js/help-links.js"></script>
+<script src="/static/js/help-narrators.js"></script>
+<script src="/static/js/help-settings.js"></script>
+<script src="/static/js/help-stats.js"></script>
+<script src="/static/js/entities.js"></script>
+<script src="/static/js/network.js"></script>
+<script src="/static/js/compare.js"></script>
+<script src="/static/js/overbook.js"></script>
+<script src="/static/js/described.js"></script>
+<script src="/static/js/stats.js"></script>
+<script src="/static/js/links.js"></script>
+<script src="/static/js/books.js"></script>
+<script src="/static/js/settings.js"></script>
+<script src="/static/js/workspaces.js"></script>
+<script src="/static/js/dialogue.js"></script>
+<script src="/static/js/corpus.js"></script>
+<script src="/static/js/narrative.js"></script>
+<script src="/static/js/sound.js"></script>
+<script src="/static/js/lexicons.js"></script>
+<script src="/static/js/reader.js"></script>
+<script src="/static/js/narrators.js"></script>
+<script src="/static/js/topics.js"></script>
+<script src="/static/js/topic-page.js"></script>
+<script src="/static/js/topic-compare.js"></script>
+<script src="/static/js/pagetools.js"></script>
+<script src="/static/js/areas.js"></script>
+<script src="/static/js/main.js"></script>
+</body>
+</html>
